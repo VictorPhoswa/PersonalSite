@@ -13,22 +13,24 @@ nav{
     right: 0;
     padding: 0.5rem;
     z-index: 99;
+    min-height: 10px;
     position: static;
 }
 
 .nav-wrap{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px;
+    min-height: 10px;
     margin: auto;
    
 }
 
-.menu{
-    display: inline-flex;
+.home{
+    cursor: pointer;
 }
+
 .menu a, a{
     text-decoration: none;
     margin: 0.5rem;
@@ -105,7 +107,7 @@ table{
 }
 
 td,th{
-    max-width: 600px;
+   
     padding: 5px;
     border: 1px wheat solid;
     align-content: center;
@@ -119,14 +121,17 @@ td,th{
     width: 400px;
     margin: auto;
     margin-top: 1rem;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px rgb(173, 158, 140);
     
 }
 
 .cert img{
-    max-width: 400px;
+    max-width: 350px;
     align-items: center;
     text-align: center;
-    box-shadow: 0 0 5px 5px rgb(173, 158, 140);
   
 }
 
@@ -140,8 +145,7 @@ td,th{
 
 .scroll img{
     max-width: 2.5rem;
-    max-height: 2.5rem;;
-    box-shadow: 0 0 5px 5px rgb(173, 158, 140);
+    max-height: 2.5rem;
 }
 
 .btn1{
@@ -206,13 +210,13 @@ footer{
     }
     .hamburger{
         display: block;
+        cursor: pointer;
     }
     .Objective{
         width: 25rem;
     }
-
-    
-
-   
+    table{
+        width: 400px;
+    }
     
 }
